@@ -1,0 +1,26 @@
+.App {
+	background-color: #f9f9f9;
+	color: #07080a;
+	width: 100%;
+	height: 100%;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.portfolio {
+	margin: 25px;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #8e8e8e;
+	border-radius: 20px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 107rem;
+	padding: 0 4rem;
+}
