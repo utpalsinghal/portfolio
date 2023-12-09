@@ -6,6 +6,12 @@
 	position: relative;
 	width: 100%;
 }
+@media (max-width: 900px) {
+	.home {
+		height: auto;
+		padding: 11rem 0;
+	}
+}
 .container {
 	margin: 0 auto;
 	max-width: 107rem;
@@ -19,6 +25,14 @@
 	justify-content: center;
 	position: relative;
 }
+@media (max-width: 900px) {
+	.content {
+		flex-direction: column;
+		gap: 3rem;
+		height: auto;
+		text-align: center;
+	}
+}
 .main {
 	align-items: center;
 	display: flex;
@@ -26,6 +40,13 @@
 	justify-content: center;
 	position: relative;
 }
+@media (max-width: 900px) {
+.main {
+    flex-direction: column-reverse;
+    gap: 3rem;
+    height: auto;
+    text-align: center;
+}}
 .main-text {
 	display: flex;
 	flex-direction: column;
@@ -47,11 +68,17 @@
 	line-height: 1.6;
 }
 .social-links {
-  cursor: pointer;
-  display: flex;
-  gap: 2rem;
-  margin: 2.5rem 0;
+	cursor: pointer;
+	display: flex;
+	gap: 2rem;
+	margin: 2.5rem 0;
 }
+@media (max-width: 900px) {
+  .social-links {
+    gap: 1.6rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+}}
 .main-img {
 	-webkit-animation: morph 8s ease-in-out infinite;
 	animation: morph 8s ease-in-out infinite;
@@ -86,27 +113,45 @@
 	left: 0;
 	position: absolute;
 }
+@media (max-width: 900px) {
+.skills {
+    flex-direction: column;
+    position: static;
+}}
 .skills p {
-  border-right: 2px solid rgba(45,46,50,.5);
-  color: #2d2e32;
-  font-family: Mulish,sans-serif;
-  font-weight: 600;
-  margin-right: 7rem;
-  padding-right: 2rem;
+	border-right: 2px solid rgba(45, 46, 50, 0.5);
+	color: #2d2e32;
+	font-family: Mulish, sans-serif;
+	font-weight: 600;
+	margin-right: 7rem;
+	padding-right: 2rem;
 }
+@media (max-width: 900px) {
+.skills p {
+    border-bottom: 2px solid rgba(45,46,50,.5);
+    border-right: none;
+    margin-bottom: 3rem;
+    margin-right: 0;
+    padding-bottom: 1rem;
+    padding-right: 0;
+}}
 .skills ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
-  list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+	list-style: none;
 }
+@media (max-width: 900px) {
+.skills ul {
+    justify-content: center;
+}}
 .skills ul li img {
-  height: 5.5rem;
-  position: relative;
-  top: 0;
-  transition: all .3s ease-in-out;
+	height: 5.5rem;
+	position: relative;
+	top: 0;
+	transition: all 0.3s ease-in-out;
 }
 .skills ul li img:hover {
-  position: relative;
-  top:-10px;
+	position: relative;
+	top: -10px;
 }
