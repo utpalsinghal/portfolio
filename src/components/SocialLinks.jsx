@@ -1,7 +1,8 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import '../styles/SocialLinks.scss';
 
 const SocialLinks = () => {
 	return (
@@ -10,7 +11,7 @@ const SocialLinks = () => {
 				<FontAwesomeIcon icon={faEnvelope} />
 			</a>
 			<a href='https://www.linkedin.com/in/utpalsinghal/' target='_blank' rel="noreferrer" className="linkedin">
-				<FontAwesomeIcon icon={faLinkedin} />
+				<FontAwesomeIcon icon={faLinkedinIn} />
 			</a>
 			<a href='https://github.com/utpalsinghal' target='_blank' rel="noreferrer" className="github">
 				<FontAwesomeIcon icon={faGithub} />
