@@ -12,11 +12,6 @@
 		padding: 11rem 0;
 	}
 }
-.container {
-	margin: 0 auto;
-	max-width: 107rem;
-	padding: 0 4rem;
-}
 .content {
 	align-items: center;
 	display: flex;
@@ -138,7 +133,7 @@
 .skills ul {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 3rem;
+	gap: 1rem;
 	list-style: none;
 }
 @media (max-width: 900px) {
