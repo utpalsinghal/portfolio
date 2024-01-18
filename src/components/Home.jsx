@@ -6,7 +6,7 @@ const Home = () => {
 	return (
 		<section id='Home' className='home'>
 			<div className='container'>
-				<div class='content'>
+				<div className='content'>
 					<div className='main'>
 						<div className='main-text'>
 							<h1>Full-Stack Developer</h1>

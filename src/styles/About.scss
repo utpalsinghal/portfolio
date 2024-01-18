@@ -6,15 +6,22 @@
   display: flex;
   flex-direction: column;
 }
-.about-content p {
+.about-content h3 {
   color: #147efb;
   font-size: 1.7rem;
   font-weight: 700;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
-.about-content h3 {
+.about-content h4 {
   color: #2d2e32;
   font-size: 2.5rem;
   margin-bottom: 6rem;
+}
+.about-content p {
+  color: #767676;
+  font-family: Mulish,sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
