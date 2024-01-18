@@ -6,9 +6,9 @@ const Projects = () => {
 		<section id='Projects' className='project'>
     <div className='container'>
       <div className='project-content'>
-          <p>Projects</p>
-          <h3>Every project unfolds as a distinct development journey.</h3>
-          <h2>The hype is real. Arriving shortly!</h2>
+          <h3>Projects</h3>
+          <h4>Every project unfolds as a distinct development journey.</h4>
+          <p>The hype is real. Arriving shortly...</p>
       </div>
     </div>
 			
