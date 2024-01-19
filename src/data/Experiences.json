@@ -1,0 +1,34 @@
+[
+	{
+		"id": 2,
+		"company": "Accenture",
+		"positions": [
+			{
+				"positionId": 2,
+				"title": "Application Development Analyst",
+				"startDate": "September 2022",
+				"endDate": null,
+				"location": "Gurugram, Haryana, India"
+			},
+			{
+				"positionId": 1,
+				"title": "Application Development Associate",
+				"startDate": "August 2021",
+				"endDate": "August 2022",
+				"location": "Gurugram, Haryana, India"
+			}
+		]
+	},
+	{
+		"id": 1,
+		"company": "Robert Bosch",
+		"positions": [
+			{
+				"title": "Project Trainee",
+				"startDate": "March 2021",
+				"endDate": "June 2021",
+				"location": "Bengaluru, Karnataka, India"
+			}
+		]
+	}
+]
