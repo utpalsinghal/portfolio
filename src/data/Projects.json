@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2,
+    "name": "EasyDo: A Todo app",
+    "github": "https://github.com/utpalsinghal/easydo",
+    "link": "https://utpal-easydo.vercel.app/",
+    "description": "A responsive To-Do application using ReactJS, which streamlines task management through an intuitive UI.",
+    "previewImage": "/images/EasyDo preview.png"
+  },
+  {
+    "id": 1,
+    "name": "Calc-U-Later",
+    "github": "https://github.com/utpalsinghal/calc-u-later",
+    "link": "https://calc-u-later.vercel.app/",
+    "description": "A feature-rich calculator app using ReactJS and Redux, showcasing expertise in state management and interactive UI development.",
+    "previewImage": "/images/Calc-U-Later preview.png"
+  }
+]

@@ -1,27 +1,95 @@
 .project {
-  background-color: #f9f9f9;
-  padding: 15rem 0;
+	background-color: #f9f9f9;
+	padding: 15rem 0;
 }
 .project-content {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 .project-content h3 {
-  color: #147efb;
-  font-size: 1.7rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
+	color: #147efb;
+	font-size: 1.7rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
 }
 .project-content h4 {
-  color: #2d2e32;
-  font-size: 2.5rem;
-  margin-bottom: 6rem;
+	color: #2d2e32;
+	font-size: 2.5rem;
+	margin-bottom: 6rem;
 }
-.project-content p {
-  color: #767676;
-  font-family: Mulish,sans-serif;
-  font-size: 1.7rem;
-  font-weight: 500;
-  line-height: 1.5;
+.project-card {
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	padding: 4rem 0;
+}
+.project-card .text-side {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 4;
+  padding: 1rem;
+}
+$right-left-margin: 5rem;
+$right-left-margin-s: 2rem;
+.project-card .text-side .links {
+	display: flex;
+	justify-content: center;
+  margin: 0 $right-left-margin 3rem;
+}
+$links-color: #2d2e32 !important;
+.project-card .text-side .links a {
+	display: flex;
+	justify-content: center;
+  color: $links-color;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+.project-card .text-side .links a p {
+	font-weight: 700;
+  color: $links-color;
+	font-family: Mulish, sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+  margin-right: 5px;
+}
+.image-side {
+	flex-grow: 6;
+}
+.image-side img {
+	height: 100%;
+	width: 100%;
+  border-radius: 2rem;
+}
+.project-content .project-name {
+	text-align: center;
+	text-transform: none !important;
+	color: #2d2e32 !important;
+  margin: 0 $right-left-margin 3rem;
+}
+.project-card.reverse {
+  flex-direction: row-reverse;
+}
+.project-card .description {
+  text-align: center;
+	color: #2d2e32 !important;
+	font-weight: 500;
+	font-family: Mulish, sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+  margin: 0 $right-left-margin 2rem;
+}
+@media (max-width: 900px) {
+  .project-card {
+    flex-direction: column !important;
+  }
+  .project-card .text-side .links {
+    margin: 0 $right-left-margin-s 1rem;
+  }
+  .project-content .project-name {
+    margin: 0 $right-left-margin-s 3rem;
+  }
+  .project-content .description {
+    margin: 0 $right-left-margin-s 2rem;
+  }
 }
