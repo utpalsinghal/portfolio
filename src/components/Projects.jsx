@@ -14,6 +14,7 @@ const Projects = () => {
 							<div className={`project-card ${project.id%2===0 ? '' : 'reverse' }`}>
 								<div className='text-side'>
 									<h3 className='project-name'>{project.name}</h3>
+									<p className="description">{project.description}</p>
 									<div className='links'>
 										{/* Live demo */}
 										<a
@@ -22,7 +23,7 @@ const Projects = () => {
 											rel='noreferrer'
 											className='externalLink'
 										>
-											<p>Live Demo</p>
+											<p>Demo</p>
 											<svg
 												xmlns='http://www.w3.org/2000/svg'
 												className='icon icon-tabler icon-tabler-external-link'
