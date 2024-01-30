@@ -40,7 +40,7 @@ $card-side-padding_xs: 1rem;
 .experience-card .company {
 	color: #2d2e32;
 	font-size: 1.7rem;
-	margin: 0 $card-side-padding 0;
+	margin: 0 1rem 0 $card-side-padding;
 	text-transform: uppercase;
 }
 .experience-card .position {
@@ -49,7 +49,7 @@ $card-side-padding_xs: 1rem;
 }
 @media (max-width: 650px) {
 	.experience-card .company {
-		margin: 0 $card-side-padding_s 0;
+		margin: 0 1rem 0 $card-side-padding_s;
 	}
   .experience-card .position {
     margin: 0 $card-side-padding-s 0;
@@ -57,7 +57,7 @@ $card-side-padding_xs: 1rem;
 }
 @media (max-width: 400px) {
 	.experience-card .company {
-		margin: 0 $card-side-padding_xs 0;
+		margin: 0 1rem 0 $card-side-padding_xs;
 	}
   .experience-card .position {
     margin: 0 $card-side-padding-xs 0;
@@ -81,4 +81,11 @@ $card-side-padding_xs: 1rem;
 }
 .experience-card .position li p {
   margin-top: 0.5rem;
+}
+.titleWrapper {
+	display: flex;
+}
+.titleWrapper img {
+	height: 2rem;
+	margin: 3px;
 }

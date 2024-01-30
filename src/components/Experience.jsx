@@ -12,13 +12,21 @@ const Experience = () => {
 					{Experiences.map((experience) => {
 						return (
 							<div className='experience-card'>
-								<p className='company'>{experience.company}</p>
-								<ul className="position">
+								<div className="titleWrapper">
+									<p className='company'>{experience.company}</p>
+									<img
+										src={experience.logo}
+										alt={`${experience.company} logo`}
+									></img>
+								</div>
+								<ul className='position'>
 									{experience.positions.map((position) => {
 										return (
 											<li>
 												<p className='title'>{position.title}</p>
-												<p className='time-period'>{`${position.startDate} - ${position.endDate ? position.endDate : 'Present'}`}</p>
+												<p className='time-period'>{`${position.startDate} - ${
+													position.endDate ? position.endDate : "Present"
+												}`}</p>
 												<p className='location'>{position.location}</p>
 											</li>
 										);

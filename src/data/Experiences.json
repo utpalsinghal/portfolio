@@ -17,7 +17,8 @@
 				"endDate": "August 2022",
 				"location": "Gurugram, Haryana, India"
 			}
-		]
+		],
+		"logo": "/images/accenture.png"
 	},
 	{
 		"id": 1,
@@ -29,6 +30,7 @@
 				"endDate": "June 2021",
 				"location": "Bengaluru, Karnataka, India"
 			}
-		]
+		],
+		"logo": "/images/bosch.png"
 	}
 ]
