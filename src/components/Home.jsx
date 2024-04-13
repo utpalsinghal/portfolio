@@ -12,7 +12,7 @@ const Home = () => {
 							<h1>Full-Stack Developer</h1>
 							<p>
 								Hi, I'm Utpal Singhal. A passionate Full-Stack Developer based
-								in Gurugram, India. 📍
+								in Bengaluru, India. 📍
 								<br />
 								Welcome to the sneak peek of my developer realm!
 							</p>

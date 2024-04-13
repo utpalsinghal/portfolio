@@ -41,7 +41,7 @@ const Contact = () => {
 									rel='noreferrer'
 									className='location'
 								>
-									Gurugram, India
+									Bengaluru, India
 								</a>
 							</div>
 						</div>

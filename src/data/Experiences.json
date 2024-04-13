@@ -1,5 +1,19 @@
 [
 	{
+		"id": 3,
+		"company": "GlobalLogic",
+		"positions": [
+			{
+				"positionId": 1,
+				"title": "Software Engineer",
+				"startDate": "March 2023",
+				"endDate": null,
+				"location": "Bengaluru, Karnataka, India"
+			}
+		],
+		"logo": "/images/globallogic.png"
+	},
+	{
 		"id": 2,
 		"company": "Accenture",
 		"positions": [
@@ -7,7 +21,7 @@
 				"positionId": 2,
 				"title": "Application Development Analyst",
 				"startDate": "September 2022",
-				"endDate": null,
+				"endDate": "March 2023",
 				"location": "Gurugram, Haryana, India"
 			},
 			{
