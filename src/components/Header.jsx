@@ -31,7 +31,7 @@ const Header = () => {
 		<>
 			<nav className='header'>
 				{/* <img src={logo} alt='Logo' className='logo' /> */}
-				<h3 className='title' onClick={()=>handleScrollToSection('Home')}>Utpal Singhal</h3>
+				<h3 className='title logo' onClick={()=>handleScrollToSection('Home')}>Utpal Singhal</h3>
 				<ul>
 					<li>
 						<a href='#Home'>Home</a>
