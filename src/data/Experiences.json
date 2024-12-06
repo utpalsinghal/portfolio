@@ -1,17 +1,33 @@
 [
 	{
+		"id": 4,
+		"company": "Navex",
+		"positions": [
+			{
+				"positionId": 1,
+				"title": "Associate Senior Software Engineer",
+				"startDate": "May 2024",
+				"endDate": null,
+				"location": "Bengaluru, Karnataka, India"
+			}
+		],
+		"logo": "/images/Navex.jpeg",
+		"companyUrl": "https://www.navex.com/en-in/"
+	},
+	{
 		"id": 3,
 		"company": "GlobalLogic",
 		"positions": [
 			{
 				"positionId": 1,
 				"title": "Software Engineer",
-				"startDate": "March 2023",
-				"endDate": null,
+				"startDate": "March 2024",
+				"endDate": "April 2024",
 				"location": "Bengaluru, Karnataka, India"
 			}
 		],
-		"logo": "/images/globallogic.png"
+		"logo": "/images/globallogic.png",
+		"companyUrl": "https://www.globallogic.com/in/"
 	},
 	{
 		"id": 2,
@@ -21,7 +37,7 @@
 				"positionId": 2,
 				"title": "Application Development Analyst",
 				"startDate": "September 2022",
-				"endDate": "March 2023",
+				"endDate": "March 2024",
 				"location": "Gurugram, Haryana, India"
 			},
 			{
@@ -32,7 +48,8 @@
 				"location": "Gurugram, Haryana, India"
 			}
 		],
-		"logo": "/images/accenture.png"
+		"logo": "/images/accenture.png",
+		"companyUrl": "https://www.accenture.com/in-en"
 	},
 	{
 		"id": 1,
@@ -45,6 +62,7 @@
 				"location": "Bengaluru, Karnataka, India"
 			}
 		],
-		"logo": "/images/bosch.png"
+		"logo": "/images/bosch.png",
+		"companyUrl": "https://www.bosch.com/"
 	}
 ]

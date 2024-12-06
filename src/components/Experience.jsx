@@ -12,13 +12,15 @@ const Experience = () => {
 					{Experiences.map((experience) => {
 						return (
 							<div className='experience-card'>
-								<div className="titleWrapper">
-									<p className='company'>{experience.company}</p>
-									<img
-										src={experience.logo}
-										alt={`${experience.company} logo`}
-									></img>
-								</div>
+								<a href={experience.companyUrl} target="_blank">
+									<div className="titleWrapper">
+										<p className='company'>{experience.company}</p>
+										<img
+											src={experience.logo}
+											alt={`${experience.company} logo`}
+										></img>
+									</div>
+								</a>
 								<ul className='position'>
 									{experience.positions.map((position) => {
 										return (
