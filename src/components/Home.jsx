@@ -26,6 +26,20 @@ const Home = () => {
 							<ul>
 								<li>
 									<img
+										src='https://skillicons.dev/icons?i=cs'
+										alt='C#'
+										title='C#'
+									/>
+								</li>
+								<li>
+									<img
+										src='https://skillicons.dev/icons?i=mysql'
+										alt='SQL'
+										title='SQLServer,MySQL and PostGreSQL'
+									/>
+								</li>
+								<li>
+									<img
 										src='https://skillicons.dev/icons?i=html'
 										alt='HTML'
 										title='HTML'
@@ -71,20 +85,6 @@ const Home = () => {
 										src='https://skillicons.dev/icons?i=redux'
 										alt='Redux'
 										title='Redux'
-									/>
-								</li>
-								<li>
-									<img
-										src='https://skillicons.dev/icons?i=cs'
-										alt='C#'
-										title='C#'
-									/>
-								</li>
-								<li>
-									<img
-										src='https://skillicons.dev/icons?i=mysql'
-										alt='SQL'
-										title='SQLServer,MySQL and PostGreSQL'
 									/>
 								</li>
 							</ul>
